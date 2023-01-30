@@ -1,0 +1,16 @@
+header {
+  background-color: #F55A5A;
+  height: 55px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  margin-right: 7px;
+}
+
+header p {
+  font-size: var(--fz14);
+}

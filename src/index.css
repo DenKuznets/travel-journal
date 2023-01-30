@@ -72,3 +72,16 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* ==================== END OF RESETS ================ */
+:root {
+  --fz14: 14px;
+  --fz25: 25px;  
+}
+
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+  font-size: 10px;
+}

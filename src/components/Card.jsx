@@ -1,5 +1,5 @@
 import './Card.css'
-const assetsUrl = '../../public/assets/';
+const assetsUrl = './assets/';
 
 export default function Card(props) {
   console.log('props',props);

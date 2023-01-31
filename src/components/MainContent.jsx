@@ -2,8 +2,13 @@ import Card from './Card'
 import data from '../data'
 
 export default function MainContent() {
+  let cards = data.map(card => {
+    return <Card {...card} />;
+  })
 
   return (
-    <Card {...data[0]} />
+    <div className='main'>
+       { cards }
+    </div>
   )
 }

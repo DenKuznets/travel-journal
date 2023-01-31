@@ -2,7 +2,7 @@ import './Card.css'
 const assetsUrl = '../../public/assets/';
 
 export default function Card(props) {
-  console.log(props);
+  console.log('props',props);
   return (
     <div className="card-container">
       <div className="img-container">

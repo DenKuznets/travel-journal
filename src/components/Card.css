@@ -7,6 +7,8 @@
 
 .card-img {
   border-radius: 5px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .card-container {
@@ -66,4 +68,6 @@
   line-height: 150%;
   color: #2B283A;
   margin-top: 7px;
+  height: 50px;
+  overflow-y: auto;
 }

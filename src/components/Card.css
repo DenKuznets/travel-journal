@@ -2,3 +2,23 @@
   width: 125px;
   height: 168px;
 }
+
+.card-img {
+  border-radius: 5px;
+}
+
+.card-container {
+  outline: 1px solid black;
+  margin-top: 36px;
+  padding: 0 40px;
+  display: flex;
+}
+
+.text-container {
+  margin-left: 20px;
+}
+
+.location-container {
+  display: flex;
+  align-items: center;
+}

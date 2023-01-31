@@ -24,7 +24,7 @@ export default function Card(props) {
             View on Google Maps
           </a>
         </div>
-        <h1 className='Title'>{props.title}</h1>
+        <h1 className='title'>{props.title}</h1>
         <h3 className='date'>{props.startDate} - {props.endDate}</h3>
         <p className='description'>{props.description}</p>
       </div>

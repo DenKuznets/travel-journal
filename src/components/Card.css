@@ -1,6 +1,8 @@
 .img-container {
   width: 125px;
   height: 168px;
+  min-width: 125px;
+  min-height: 168px;
 }
 
 .card-img {
@@ -8,7 +10,7 @@
 }
 
 .card-container {
-  outline: 1px solid black;
+  /* outline: 1px solid black; */
   margin-top: 36px;
   padding: 0 40px;
   display: flex;
@@ -21,4 +23,47 @@
 .location-container {
   display: flex;
   align-items: center;
+  margin-top: 20px;
+}
+
+.country {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+  margin-left: 4px;
+  text-transform: uppercase;
+}
+
+.maps {
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #918E9B;
+  margin-left: 14px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #2B283A;
+  margin-top: 7px;
+}
+
+.date {
+  margin-top: 15px;
+  font-weight: 700;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 150%;
+  color: #2B283A;
+  margin-top: 7px;
 }
